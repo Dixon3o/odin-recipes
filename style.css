@@ -1,27 +1,57 @@
 .main{
     color: red;
-    background-color: black;
-    font-family: "Arial";
+    font-family: "Chewy", cursive;
     text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black; /*Crni obod oko slova*/
 }
 .goulash{
-    color: green;
-    background-color: black;
-    font-family: "Arial";
+    color: red;
+    font-family: "Chewy", cursive;
     text-align: center;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    font-size: 50px;
 }
 .CFR{
-    color: green;
-    background-color: black;
-    font-family: "Arial";
+    color: red;
+    font-family: "Chewy", cursive;
     text-align: center;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    font-size: 50px;
 }
 .gnocchi{
-    color: green;
-    background-color: black;
-    font-family: "Arial";
+    color: red;
+    font-family: "Chewy", cursive;
     text-align: center;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+    font-size: 50px;
 }
 .secondary{
-    color: blue;
+    text-align: center;
+    color: black;
+    font-family: "Chewy", cursive;
+    text-shadow: 2px 2px 4px #93E1D8, -2px -2px 4px #93E1D8, 2px -2px 4px #93E1D8, -2px 2px 4px #93E1D8;
+}
+.link{
+    text-align: center;
+    list-style-position: inside;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.home{
+    display: block;      /* Pretvori link u blok element */
+    text-align: center;  /* Centriraj sadržaj unutar njega */
+    margin-left: auto;   /* Auto marginama se centriraj */
+    margin-right: auto;  /* Auto marginama se centriraj */
+}
+.ingredients{
+    text-align: center;
+    list-style-position: inside;
+}
+.p{
+    text-align: center;
 }
