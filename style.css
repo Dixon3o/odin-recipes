@@ -4,6 +4,7 @@
     text-align: center;
     font-size: 70px;
     text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black; /*Crni obod oko slova*/
+    
 }
 .goulash{
     color: red;
@@ -34,7 +35,9 @@
 }
 .link{
     text-align: center;
-    list-style-position: inside;
+    display: block;
+    padding-right: 37px;
+    margin: 3px;
 }
 .img{
     display: block;
@@ -49,9 +52,15 @@
     margin-right: auto;  /* Auto marginama se centriraj */
 }
 .ingredients{
+    padding-right: 60px;
     text-align: center;
     list-style-position: inside;
 }
 .p{
     text-align: center;
+}
+.steps{
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 40px;
 }
