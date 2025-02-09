@@ -4,6 +4,7 @@
     text-align: center;
     font-size: 70px;
     text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black; /*Crni obod oko slova*/
+    margin-bottom: -5px;
     
 }
 .goulash{
@@ -34,10 +35,21 @@
     text-shadow: 2px 2px 4px #93E1D8, -2px -2px 4px #93E1D8, 2px -2px 4px #93E1D8, -2px 2px 4px #93E1D8;
 }
 .link{
-    text-align: center;
     display: block;
-    padding-right: 37px;
-    margin: 3px;
+    text-align: left;
+    margin: 3px auto;
+    border: 2px solid black;
+    width: 70px;
+    background-color: red;
+    padding-right: 12px;
+    padding-left: 25px;
+    color: black;
+
+}
+.link a {
+    color: white;
+    text-decoration: none;
+
 }
 .img{
     display: block;
@@ -48,8 +60,15 @@
 .home{
     display: block;      /* Pretvori link u blok element */
     text-align: center;  /* Centriraj sadržaj unutar njega */
-    margin-left: auto;   /* Auto marginama se centriraj */
-    margin-right: auto;  /* Auto marginama se centriraj */
+    margin-left: auto;   /* Auto marginama se centrira */
+    margin-right: auto;  /* Auto marginama se centrira */
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: red;
+    width: 100px;
+    margin-top: -20px;
+    color: white;
+    text-decoration: none;
 }
 .ingredients{
     padding-right: 60px;
