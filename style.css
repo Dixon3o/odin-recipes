@@ -36,18 +36,15 @@
 }
 .link{
     display: block;
-    text-align: left;
-    margin: 3px auto;
-    border: 2px solid black;
-    width: 70px;
-    background-color: red;
-    padding-right: 12px;
-    padding-left: 25px;
-    color: black;
+    text-align: center;
+    margin: 5px auto;
+    width: 250px;
+    padding-right: 40px;
 
 }
 .link a {
     color: white;
+    text-shadow: 1px 1px 4px black, -1px -1px 4px black, 1px -1px 4px black, -1px 1px 4px black;
     text-decoration: none;
 
 }
