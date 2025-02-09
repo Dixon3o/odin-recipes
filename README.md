@@ -1,3 +1,3 @@
 # odin-recipes
 
-Demonstrating basics of HTML that I learned on The Odin Project.
+Demonstrating the knowledge of HTML and CSS that I learned on The Odin Project.
